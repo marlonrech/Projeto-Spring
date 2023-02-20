@@ -15,12 +15,12 @@ public class UsuarioController {
     private usuarioService usuarioService;
 
     @PostMapping("/cadastro")
-    public ResponseEntity<?> cadastrarUsuario(@RequestBody Usuario usuario){
+    public ResponseEntity cadastrarUsuario(@RequestBody Usuario usuario){
         return usuarioService.cadastrarNovoUsuario(usuario);
     }
 
     @GetMapping("/login")
-    public ResponseEntity<?> buscarPorEmailEsenha(@RequestParam ("email") String email, @RequestParam("senha") String senha){
+    public ResponseEntity buscarPorEmailEsenha(@RequestParam ("email") String email, @RequestParam("senha") String senha){
         return usuarioService.buscarUsuario(email,senha);
     }
 }
