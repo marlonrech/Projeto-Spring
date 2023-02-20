@@ -9,6 +9,7 @@ import tech.devinhouse.Projeto2Mod2.Service.medicamentoService;
 
 @RestController
 @RequestMapping("/medicamentos")
+@CrossOrigin(origins = "http://localhost:3000 ")
 public class MedicamentoController {
 
     @Autowired

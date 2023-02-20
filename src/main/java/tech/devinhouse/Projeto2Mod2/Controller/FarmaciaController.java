@@ -8,6 +8,7 @@ import tech.devinhouse.Projeto2Mod2.Service.farmaciaService;
 
 @RestController
 @RequestMapping("/farmacia")
+@CrossOrigin(origins = "http://localhost:3000 ")
 public class FarmaciaController {
 
     @Autowired

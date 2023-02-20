@@ -9,6 +9,7 @@ import tech.devinhouse.Projeto2Mod2.Service.usuarioService;
 
 @RestController
 @RequestMapping("/usuario")
+@CrossOrigin(origins = "http://localhost:3000 ")
 public class UsuarioController {
 
     @Autowired

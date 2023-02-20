@@ -1,0 +1,38 @@
+.card {
+    padding: 0px;
+    align-items: center;
+    margin: 10px;
+    
+    
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+    
+}
+
+.card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
+}
+
+
+.card-img {
+    overflow: hidden;
+}
+.card-img {
+    transform: scale(1);
+    transition: transform 0.2s ease;
+}
+
+.card-img:hover {
+    transform: scale(1.07);
+}	
+
+.input2 {
+    margin-left: 40px;
+    padding-bottom: 10px;
+}

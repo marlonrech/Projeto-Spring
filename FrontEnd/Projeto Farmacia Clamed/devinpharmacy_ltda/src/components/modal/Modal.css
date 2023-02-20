@@ -1,0 +1,13 @@
+.style {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.p {
+    font-weight: bold;
+} 
+
+.modal-body span {
+    font-weight: 400;
+    font-size: 16px
+}
