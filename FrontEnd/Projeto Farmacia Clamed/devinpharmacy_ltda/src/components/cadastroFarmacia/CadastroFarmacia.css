@@ -5,14 +5,14 @@ input::-webkit-inner-spin-button {
 }
 
 .form {
-    padding: 10px;
-    border: solid 1px black;
+  padding: 10px;
+  border: solid 1px black;
 }
 .form1 {
-    padding: 10px;
-    border: solid 1px black;
-    border-top: none;
-    margin-bottom: 30px;
+  padding: 10px;
+  border: solid 1px black;
+  border-top: none;
+  margin-bottom: 30px;
 }
 
 /* .input {
@@ -23,15 +23,12 @@ input::-webkit-inner-spin-button {
     
 } */
 
-input:hover, select:hover {
-    border-color: transparent;
-    box-shadow: 0 0 0 1px #90a79c;
-   
-  }
+input:hover,
+select:hover {
+  border-color: transparent;
+  box-shadow: 0 0 0 1px #90a79c;
+}
 
-  .btn {
-    margin: 5px;
-  }
-
-
-
+.btn {
+  margin: 5px;
+}

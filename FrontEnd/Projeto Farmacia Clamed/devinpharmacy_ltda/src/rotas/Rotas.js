@@ -7,22 +7,20 @@ import ListagemMedicamento from "../components/listagemMedicamentos/ListagemMedi
 import CadastroFarmacia from "../components/cadastroFarmacia/CadastroFarmacia";
 import NotFound from "../components/notFound/NotFound";
 
-
-export default function Rotas(){
-    return(
-        <BrowserRouter>
-        <Routes>
-        <Route path="/login" element={<Login/>}/>
-        <Route path="*" element={<Navigate to="/notfound"/>}/>
-        <Route path="/cadastromedicamento" element={<CadastroMedicamentos/>}/>
-        <Route path="/mapa" element={<Mapa/>}/>
-        <Route path="/listagemmedicamento" element={<ListagemMedicamento/>}/>
-        <Route path="/" element={<Navigate replace to= "/login" />} />
+export default function Rotas() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/login" element={<Login />} />
+        <Route path="*" element={<Navigate to="/notfound" />} />
+        <Route path="/cadastromedicamento" element={<CadastroMedicamentos />} />
+        <Route path="/mapa" element={<Mapa />} />
+        <Route path="/listagemmedicamento" element={<ListagemMedicamento />} />
+        <Route path="/" element={<Navigate replace to="/login" />} />
         {/* <Route path="modal" element={<Navigate replace to= "/modal" />} /> */}
-        <Route path="/cadastrofarmacia" element={<CadastroFarmacia/>}/>
-        <Route path="/notfound" element={<NotFound/>}/>
-        </Routes>
-        </BrowserRouter>
-    )
-
+        <Route path="/cadastrofarmacia" element={<CadastroFarmacia />} />
+        <Route path="/notfound" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
